@@ -22,11 +22,11 @@ In this task, you will begin by deploying an Azure OpenAI resource through the A
 
 1. In the Search bar of the Azure portal, type **Azure OpenAI (1)**, then select **Azure OpenAI (2)**.
 
-    ![](./Images/Ex1-01.png)
+    ![](./Images/EX1-01.png)
 
 1. On the Microsoft Foundry | Azure OpenAI, click **+ Create (1)**, and from the dropdown, choose **Azure OpenAI (2)**.
 
-    ![](./images/Ex1-02.png)
+    ![](./images/EX1-02.png)
 
 1. On the Basics tab of Create Azure OpenAI resource page, enter the following details:
 
