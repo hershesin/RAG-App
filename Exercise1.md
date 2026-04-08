@@ -116,12 +116,12 @@ In this task, you will design and implement a chat flow using Microsoft Foundry 
 
 1. On Azure portal, Search for **Azure AI Search (1)**  in the search box and select **AI Search (2)** from the list.
 
-    ![](./Images/EX1-19.png)
+    ![](./Images/Ex1-19.png)
 
 
 1. On the Microsoft Foundry | AI Search blade, click on ** + Create**.
 
-    ![](./Images/EX1-20.png)
+    ![](./Images/Ex1-20.png)
 
 1. On the **Basics** tab of Create a search service resource page, enter the following details:
     - Subscription: Default - **Pre-assigned subscription (1)**
@@ -131,11 +131,11 @@ In this task, you will design and implement a chat flow using Microsoft Foundry 
     - Pricing tier: **Standard (5)**
     - Click on **Review + create (6)**
 
-    ![](./Images/EX1-21.png)
+    ![](./Images/Ex1-21.png)
 
 1. Review the configuration, and click on **Create**.
 
-    ![](./Images/EX1-22.png)
+    ![](./Images/Ex1-22.png)
 
 
 1. On the Azure portal, search **Document intelligences (1)** in the search box and select **Document intelligences (2)** from the list.
@@ -144,7 +144,7 @@ In this task, you will design and implement a chat flow using Microsoft Foundry 
 
 1. On the Microsoft Foundry | Document intelligence, click on **+ Create**.
     
-    ![](./Images/EX1-24.png)
+    ![](./Images/Ex1-24.png)
 
 1. On the Basics tab, enter the following details:
 
