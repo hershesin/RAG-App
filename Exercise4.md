@@ -1,6 +1,6 @@
 # Interact with Chat App
 
-## Estimated Duration: 30 Minutes
+## Estimated Duration: 60 Minutes
 
 ## Overview
 
@@ -20,21 +20,22 @@ In this task, you will test the functionality of the deployed web app by browsin
      ```
      https://<your-app-name>.azurewebsites.net
      ```
-    ![](./images/Lab4Images/EX-01.png)
+    
+    ![](./Images/Lab4Images/EX-01.png)
 
     > **Note:** If you encounter any errors while opening the application, restart the application, wait for 2-3 minutes, and then try again.
 
 1. In the chat app, select the **What happens in a performance review?** option, or enter the same text in the chat text box. The app returns the initial response:
 
-    ![](./images/Lab4Images/EX-03.png)
+    ![](./Images/Lab4Images/EX-03.png)
 
 1. In the answer box, select a **citation**:
 
-    ![](./images/Lab4Images/EX-04.png)
+    ![](./Images/Lab4Images/EX-04.png)
 
 1. It opens the right **Citation** pane with three tabbed regions and the focus is on the **Citation** tab:
 
-     ![](./images/Lab4Images/EX-05.png)
+     ![](./Images/Lab4Images/EX-05.png)
 
     | Tab     |  Description  |
     |----------|-----------|
@@ -47,7 +48,7 @@ In this task, you will test the functionality of the deployed web app by browsin
 
 1. The **Developer settings** option opens the Configure answer generation pane where you can change settings for the chat app:
 
-    ![](./images/Lab4Images/EX-06.png)
+    ![](./Images/Lab4Images/EX-06.png)
 
 1. The following steps walk you through the process of changing the settings.
 
@@ -57,7 +58,7 @@ In this task, you will test the functionality of the deployed web app by browsin
 
     - In the chat app, reask the question, this time by entering the text in the question box:
 
-    ![](./images/Lab4Images/EX-08.png)
+    ![](./Images/Lab4Images/EX-08.png)
    
 1. Select the **Developer settings** option again, and unselect Use **semantic ranker for retrieval** option. Close the settings.
 

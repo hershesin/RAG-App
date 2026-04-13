@@ -1,6 +1,6 @@
 # Exercise 2 - Building RAG
 
-## Estimated Duration: 30 Minutes
+## Estimated Duration: 60 Minutes
 
 ## Overview
 In this excercise, you will build the Retrieval-Augmented Generation (RAG) model for your application. You will process and ingest data and configure the retrieval pipeline. This exercise will guide you through the steps required to implement and validate the RAG workflow.
