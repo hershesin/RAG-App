@@ -83,7 +83,7 @@ azd env set AZURE_STORAGE_SKU  Standard_LRS
 
 ```
 
-## Task 3: Deploy the Python Application with `azd up`
+## Task 3: Deploy the Python Application 
 
 The steps below will provision Azure resources and deploy the application code to Azure Container Apps.
 
@@ -98,10 +98,10 @@ The steps below will provision Azure resources and deploy the application code t
     ```shell
     azd env new
     ```
-1. Run `azd up` - This will provision Azure resources and deploy this sample to those resources.
+1. Run `azd deploy` will provision Azure resources and deploy this sample to those resources.
 
     ```shell
-    azd up
+    azd deploy
     ```
 
     - You will be prompted to select two locations, one for the majority of resources and one for the OpenAI resource, which is currently a short list. That location list is based on the availablity and may become outdated as availability changes.
