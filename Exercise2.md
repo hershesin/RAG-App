@@ -1,9 +1,9 @@
 # Exercise 2 - Building RAG
 
-## Estimated Duration: 60 Minutes
+## Estimated Duration: 30 Minutes
 
 ## Overview
-In this module, you will build the Retrieval-Augmented Generation (RAG) model for your application. You will process and ingest data and configure the retrieval pipeline. This exercise will guide you through the steps required to implement and validate the RAG workflow.
+In this excercise, you will build the Retrieval-Augmented Generation (RAG) model for your application. You will process and ingest data and configure the retrieval pipeline. This exercise will guide you through the steps required to implement and validate the RAG workflow.
 
 ## Lab Objectives
 In this lab, you will perform the following:
@@ -28,12 +28,13 @@ In this lab, you will perform the following:
 
     ![](./Images/Lab2Images/EX2-04.png)
 
-1. Navigate to **C:\LabFiles\azure-search-openai-demo\data (1)** and select both the PDFs to **upload (2)**, and **click on Open (3)**.
+1. Navigate to **C:\LabFiles\azure-search-openai-demo\data (1)** and select all the PDFs to **upload (2)**, and **click on Open (3)**.
 
-    ![](./Images/Lab2Images/EX2-04.png)
+    ![](./Images/Lab2Images/EX2-14.png)
 
 1. Click on **upload**.
 
+    ![](./Images/Lab2Images/EX2-15.png)
 
 ### Task 2: Configure the RAG Pipeline
 
@@ -56,11 +57,12 @@ In this lab, you will perform the following:
 
 1. On Configure your Azure Blob Storage , enter the following details:
 
-    - Subscription: **Leave it default (1)**
-    - Storage account: **Select the Storage account neamed storage**
-    - Blob container: **Content (3)**
-    - Management identity type: **System-assigned(4)**
-    - Parsing: **Default(5)**
+    - Subscription: **Default - Pre-assigned subscription (1)**
+    - Storage account: **Select the Storage account named storage**
+    - Blob container: **content (3)**
+    - Parsing: **Default(4)**
+    - Management identity type: **System-assigned(5)**
+
     - Click on **Next(6)**
 
     ![](./Images/Lab2Images/EX2-09.png)
@@ -69,11 +71,11 @@ In this lab, you will perform the following:
 
     - Kind: **Azure OpenAI (1)**
     - Subscription: **Leave it default (2)**
-    - Azure OpenAI service: **ai-openai-service(3)**
+    - Azure OpenAI service: **openai-(3)**
     - Model deployment: **text-embedding-3-large (4)**
     - Authentication type: **System assigned identity (5)**
     - Acknowledgement **checked (6)**
-    - click on Next (7)
+    - click on **Next (7)**
     
      ![](./Images/Lab2Images/EX2-10.png)
 
@@ -83,7 +85,7 @@ In this lab, you will perform the following:
     ![](./Images/Lab2Images/EX2-11.png)
     ![](./Images/Lab2Images/EX2-12.png)
 
-1. Enter **health-plan (1)** for Objects name prefix and click on **Create (2)**.
+1. Enter **healthplan (1)** for Objects name prefix and click on **Create (2)**.
 
     ![](./Images/Lab2Images/EX2-13.png)
 
@@ -91,7 +93,14 @@ In this lab, you will perform the following:
 
 >**Note:** On the **Create Suceeded** Pop Up click on close.
 
+## Summary
 
+In this lab, you have completed the following tasks:
+- Ingest the data in Storage Account
+- Configuring the RAG pipeline
 
+### You have successfully completed the lab. Click on **Next >>** to proceed with the next Lab.
+
+![](./Images/gettingstartedimages/Next.png)
 
 
